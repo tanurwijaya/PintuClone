@@ -7,6 +7,13 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     steps:
+      - name: 🔎 Check for EXPO_TOKEN
+        run: |
+          if [ -z "${{ secrets.EXPO_TOKEN }}" ]; then
+            echo "You must provide an EXPO_TOKEN secret linked to this project's Expo account in this repo's secrets. Learn more: https://docs.expo.dev/eas-update/github-actions"
+            exit 1
+          fi
+
       - name: 🏗 Setup repo
         uses: actions/checkout@v2
 
@@ -20,10 +27,22 @@ jobs:
         uses: expo/expo-github-action@v7
         with:
           expo-version: latest
+          eas-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
+
+      - name: 🔎 Find yarn cache
+          id: yarn-cache-path
+          run: echo "::set-output name=dir::$(yarn cache dir)"
+
+      - name: Restore cache
+          uses: actions/cache@v2
+          with:
+            path: ${{ steps.yarn-cache-path.outputs.dir }}
+            key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
+            restore-keys: ${{ runner.os }}-yarn-
 
       - name: 📦 Install dependencies
         run: yarn install
 
       - name: 🚀 Publish app
-        run: expo publish --non-interactive
+        run: eas update --auto
