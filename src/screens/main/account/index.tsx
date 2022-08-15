@@ -1,5 +1,5 @@
 const AccountScreen = () => {
-    return null
+	return null
 }
 
 export default AccountScreen

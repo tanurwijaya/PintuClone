@@ -1,5 +1,5 @@
 const WalletScreen = () => {
-    return null
+	return null
 }
 
 export default WalletScreen

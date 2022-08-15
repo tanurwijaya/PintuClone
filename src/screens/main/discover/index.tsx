@@ -1,5 +1,5 @@
 const DiscoverScreen = () => {
-    return null
+	return null
 }
 
 export default DiscoverScreen
