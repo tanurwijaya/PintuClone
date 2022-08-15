@@ -1,0 +1,9 @@
+const BORDER_COLOR = '#F1F1F1'
+
+const BACKGROUND_COLOR = '#FFFFFF'
+
+
+export {
+    BORDER_COLOR,
+    BACKGROUND_COLOR
+}
