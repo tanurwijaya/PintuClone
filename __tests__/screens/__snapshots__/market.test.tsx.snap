@@ -1,0 +1,258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing render market screen screen render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#FFFFFF",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "padding": 16,
+      }
+    }
+  >
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      data={
+        Array [
+          "New",
+          "DeFi",
+          "NFT/Gaming",
+          "CEX",
+        ]
+      }
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={true}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "marginBottom": 16,
+        }
+      }
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "borderColor": "#F1F1F1",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "paddingHorizontal": 16,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text>
+              New
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": 16,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "borderColor": "#F1F1F1",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "paddingHorizontal": 16,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text>
+              DeFi
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": 16,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "borderColor": "#F1F1F1",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "paddingHorizontal": 16,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text>
+              NFT/Gaming
+            </Text>
+          </View>
+          <View
+            style={
+              Object {
+                "width": 16,
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={
+            Array [
+              Object {
+                "flexDirection": "row",
+              },
+              null,
+            ]
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignSelf": "flex-start",
+                "borderColor": "#F1F1F1",
+                "borderRadius": 16,
+                "borderWidth": 1,
+                "paddingHorizontal": 16,
+                "paddingVertical": 8,
+              }
+            }
+          >
+            <Text>
+              CEX
+            </Text>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#000",
+            "fontWeight": "bold",
+          }
+        }
+      >
+        Sort By
+      </Text>
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+          }
+        }
+      >
+        <Text
+          style={
+            Object {
+              "color": "#000",
+              "fontWeight": "bold",
+              "marginRight": 4,
+            }
+          }
+        >
+          Default
+        </Text>
+        <Text />
+      </View>
+    </View>
+  </View>
+  <RCTScrollView
+    ItemSeparatorComponent={[Function]}
+    data={Array []}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    keyExtractor={[Function]}
+    onContentSizeChange={[Function]}
+    onLayout={[Function]}
+    onMomentumScrollBegin={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    style={
+      Object {
+        "flex": 1,
+        "paddingVertical": 24,
+      }
+    }
+    viewabilityConfigCallbackPairs={Array []}
+  >
+    <View />
+  </RCTScrollView>
+</View>
+`;
