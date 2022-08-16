@@ -22,11 +22,11 @@ jobs:
           expo-version: latest
           token: ${{ secrets.EXPO_TOKEN }}
 
-      - name: Install expo updates
-        run: expo install expo-updates
-
       - name: 📦 Install dependencies
         run: yarn install
+
+      - name: Install expo updates
+        run: expo install expo-updates
 
       - name: 🚀 Publish app
         run: expo publish --non-interactive
