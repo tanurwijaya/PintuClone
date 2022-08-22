@@ -6,7 +6,7 @@
 - [x] Good state management (it is recommended using hooks and React Context)
 - [x]  Using react-query is a plus
 - [ ]  Linting
-- [ ]  Automated deployment
+- [x]  Automated deployment
 
 ## Bonus:
 - [ ] Write clear documentation on how the app was designed and how to run the code
@@ -16,6 +16,10 @@
 - [x] Include subtle animations to focus attention
 - [ ] Describe improvement opportunities
 - [ ] Impress us!
+
+## Improvement opportunities:
+1. Possibility to create monorepo or shared library to share same logic and components.
+2. Product wise improvement, is create offline indicator.
 
 ## How to run code:
 1. Clone the repo
