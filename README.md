@@ -1,5 +1,8 @@
 # PintuClone
 
+## [Test on Expo](https://expo.dev/@tanurwijaya/pintu-clone?serviceType=classic&distribution=expo-go)
+![img.png](assets/expo_qr.png)
+
 ## Requirements:
 - [x] TypeScript oriented (JavaScript can be used, but we strongly prefer TypeScript)
 - [x] Use React 16+
